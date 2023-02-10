@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <link rel="stylesheet" href="./style.css">
+  <title>Weather App</title>
+</head>
+<body>
+    <div class="container">
+      <div class="animation-container">
+        <div class='c'>w</div>
+        <div class='c'>e</div>
+        <div class='c'>a</div>
+        <div class='c'>t</div>
+        <div class='c'>h</div>
+        <div class='c'>e</div>
+        <div class='c'>r</div>
+        <div class='c'>a</div>
+        <div class='c'>p</div>
+        <div class='c'>p</div>
+       </div>
+       <div class="madeBy"><h2>Made By Jaimin Patel</h2></div>
+        <div class="overlay">
+           <div class="weather-container">
+            <div class="input-div"><input type="text" placeholder="Search City Here" class="city-input" id="cityValue"><button for="search" id="searchButton">Search</button></div>
+            <h1 class="city" id="city-Show">Ahmedabad</h1>
+            <div id="weather-Info">
+               <div>
+                  <img  id='weather-icon' src="https://openweathermap.org/img/w/01d.png">
+               </div>
+               <div>
+                  <p class="main-moody" id="wearther-main">Clouds</p>
+                  <p class="prime-moody" id="wearther-dec">Few Clouds</p>
+               </div>
+            </div>
+            <img src="" alt="">
+            <h1 class="weather-degree">18.5</h1>
+            <div class="weather-defferent-minmax">
+                <div>
+                   <strong>min</strong>
+                   <p id="min-weather">17.4</p>
+                </div>
+                <div class="separator"></div>
+                <div>
+                  <strong>max</strong>
+                  <p id="max-weather">19.4</p>
+               </div>
+            </div>
+           </div>
+        </div>
+    </div>
+</body>
+</html>
+
+<script src="app.js"></script>
